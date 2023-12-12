@@ -97,7 +97,7 @@ class ViewController: UIViewController {
             result = Int(firstNumber)! - Int(secondNumber)!
             resultScreen.text = String(result)
         }
-        else if(operationTapped == "X"){
+        else if(operationTapped == "*"){
             
             result = Int(firstNumber)! * Int(secondNumber)!
             resultScreen.text = String(result)
