@@ -21,6 +21,10 @@ final class NumSelectTests: XCTestCase {
     }
     
     func testAllButtons() {
-        
+        CalcPage()
+            .tapOne()
+            .tapPlus()
+            .tapFive()
+            .tapEqual()
     }
 }
